@@ -19,3 +19,4 @@
 #### 关于img2img的设置
 Denoising Strength 指与原图的差异度，建议在 0.75-0.9，魔改图片可以设为 0.5 以下，数值越小，与原图的相似度越高，CFG Scale描述的是生成的图片与文字描述的拟合度，可以根据Prompt和期望图片自行调整，建议设置为7~18
 如果想要了解更多进阶使用方法请点击这里：https://zhuanlan.zhihu.com/p/570954565
+您可以在这里查询各种tags: https://aitag.top/
