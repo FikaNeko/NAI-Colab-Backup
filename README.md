@@ -1,6 +1,6 @@
 # 在您使用之前请阅读README！
 ## 使用方法
-点击该仓库的Code，点击Download ZIP下载解压包然后解压，打开Google Colab(https://colab.research.google.com/)登录自己的Google账号后点击左上角文件，点击上传笔记本，这里有两个使用不同的前端的版本，“NovelAILeaks_API_Backend_(4chan_Ver_)”.ipynb为NovelAI官方前端，StableDiffusionUI_(adapted_to_NovelAILeaks).ipynb为Stable Diffusion前端
+点击该仓库的Code，点击Download ZIP下载解压包然后解压，打开Google Colab(https://colab.research.google.com/) 登录自己的Google账号后点击左上角文件，点击上传笔记本，这里有两个使用不同的前端的版本，“NovelAILeaks_API_Backend_(4chan_Ver_)”.ipynb为NovelAI官方前端，StableDiffusionUI_(adapted_to_NovelAILeaks).ipynb为Stable Diffusion前端
 ## NovelAI前端与Stable Diffusion前端对比
 ### NovelAI前端优缺点
 优点：不需要过多配置，直接输入Prompt即开即用，生成效果比使用Stable Diffusion前端的更好一点（未知原因，个人猜测Stable Diffusion前端和NovelAI前端使用了不同的模型，NovelAI使用animefull-final-lastest模型，Stable Diffusion使用animefull-final-pruned模型）
@@ -18,4 +18,4 @@
 ### 进阶设置
 #### 关于img2img的设置
 Denoising Strength 指与原图的差异度，建议在 0.75-0.9，魔改图片可以设为 0.5 以下，数值越小，与原图的相似度越高，CFG Scale描述的是生成的图片与文字描述的拟合度，可以根据Prompt和期望图片自行调整，建议设置为7~18
-如果想要了解更多进阶使用方法请点击这里：(https://zhuanlan.zhihu.com/p/570954565)
+如果想要了解更多进阶使用方法请点击这里：https://zhuanlan.zhihu.com/p/570954565
